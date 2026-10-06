@@ -18,10 +18,8 @@ on the home screen.
 
 Community port contributed via [PR #155](https://github.com/lamiskin/espcontrol-community-devices/pull/155) by @jonnybergdahl.
 
-::: tip Hardware-verified
-This device has been verified on real hardware — it compiles, flashes, and runs EspControl correctly.
-
-Confirmed by @jonnybergdahl ([#155](https://github.com/lamiskin/espcontrol-community-devices/pull/155)) at `community-v0.9.1-upstream.v2.9.1`.
+::: danger Currently broken
+This device does not compile against the current pinned upstream version and has been pulled from the installer. Already-flashed panels keep working but will not receive updates until it is fixed.
 :::
 ::: tip Full upstream feature parity
 This device supports the full upstream feature set — nothing is disabled or unavailable here.
@@ -43,13 +41,8 @@ This device supports the full upstream feature set — nothing is disabled or un
 
 ## Install
 
-Connect the display to your computer with a **USB-C data cable**, then click
-the button below (Chrome or Edge on desktop).
-
-<EspInstallButton slug="guition-esp32-s3-jc8048w550" />
-
-For WiFi setup and Home Assistant pairing the flow is identical to official
-EspControl — follow the [Install guide](/getting-started/install).
+Installation is unavailable while this device is not building — see the
+status note above.
 
 ## ESPHome Manual Setup
 
